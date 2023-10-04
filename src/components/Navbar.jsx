@@ -13,7 +13,9 @@ export const Navbar = () => {
       <div className="container-fluid bg-yellow">
         <div className="row p-2 justify-content-center">
           <div className="col-12 col-md-2 mb-3 mb-sm-0 mt-1">
-            <img src={logo} className="mx-auto d-block" alt="Mi Logo" />
+            <a href="/">
+              <img src={logo} className="mx-auto d-block" alt="Mi Logo"/>
+            </a>
           </div>
           <div className="col-11 col-md-5 mb-3 mb-sm-0 mt-1">
             <div class="input-group">
@@ -67,31 +69,31 @@ export const Navbar = () => {
                 </ul>
               </li>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Ofertas' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/Historial' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Supermercado' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Moda' style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Vender' style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Ayuda' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</NavLink>
               </div>
             </div>
 
             <div className="navbar-nav">            
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/a' style={{fontSize:"0.9rem"}}>Crea tu cuenta</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Cuenta' style={{fontSize:"0.9rem"}}>Crea tu cuenta</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/s' style={{fontSize:"0.9rem"}}>Ingresa</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Ingresa' style={{fontSize:"0.9rem"}}>Ingresa</NavLink>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras' style={{fontSize:"0.9rem"}}>Mis compras</NavLink>
