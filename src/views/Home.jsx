@@ -32,6 +32,32 @@ import Img22 from '../img/ImgDeCarruselCard/Img22.jpg'
 import Img23 from '../img/ImgDeCarruselCard/Img23.jpg'
 import Img24 from '../img/ImgDeCarruselCard/Img24.jpg'
 import Img25 from '../img/ImgDeCarruselCard/Img25.jpg'
+import Img26 from '../img/ImgDeCarruselCard/Img26.jpg'
+import Img27 from '../img/ImgDeCarruselCard/Img27.jpg'
+import Img28 from '../img/ImgDeCarruselCard/Img28.jpg'
+import Img29 from '../img/ImgDeCarruselCard/Img29.jpg'
+import Img30 from '../img/ImgDeCarruselCard/Img30.jpg'
+import Img31 from '../img/ImgDeCarruselCard/Img31.jpg'
+import Img32 from '../img/ImgDeCarruselCard/Img32.jpg'
+import Img33 from '../img/ImgDeCarruselCard/Img33.jpg'
+import Img34 from '../img/ImgDeCarruselCard/Img34.jpg'
+import Img35 from '../img/ImgDeCarruselCard/Img35.jpg'
+import Img36 from '../img/ImgDeCarruselCard/Img36.jpg'
+import Img37 from '../img/ImgDeCarruselCard/Img37.jpg'
+import Img38 from '../img/ImgDeCarruselCard/Img38.webp'
+import Img39 from '../img/ImgDeCarruselCard/Img39.webp'
+import Img40 from '../img/ImgDeCarruselCard/Img40.jpg'
+import Img41 from '../img/ImgDeCarruselCard/Img41.jpg'
+import Img42 from '../img/ImgDeCarruselCard/Img42.webp'
+import Img43 from '../img/ImgDeCarruselCard/Img43.webp'
+import Img44 from '../img/ImgDeCarruselCard/Img44.webp'
+import Img45 from '../img/ImgDeCarruselCard/Img45.webp'
+import Img46 from '../img/ImgDeCarruselCard/Img46.webp'
+import Img47 from '../img/ImgDeCarruselCard/Img48.webp'
+import Img48 from '../img/ImgDeCarruselCard/Img49.webp'
+import Img49 from '../img/ImgDeCarruselCard/Img50.webp'
+import Img50 from '../img/ImgDeCarruselCard/Img50.webp'
+import Img51 from '../img/ImgDeCarruselCard/Img51.webp'
 export const Home = () => {
   return (
     <>
@@ -494,8 +520,838 @@ export const Home = () => {
 
               </div>
             </div>
-
             {/* CARD 2 IMAGENES */}
+
+
+            {/* DIV CONTIENE TEXTO */}
+            <div className="ms-5 mt-4">
+              <br />
+              <h4 className="mt-4">Las mejores tiendas te esperan <a href="" className="ms-4">Ver tiendas</a></h4>
+            </div>
+            {/* DIV CONTIENE TEXTO */}
+
+            {/* CONTENIDO DE CARRUSEL CARD */}
+            <div id="carouselExampleTres" className="carousel slide mt-4">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  {/* CONTENIDO CARD */}
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img26} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Hasbro</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img27} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Avent Philips</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img28} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">GoPro</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img29} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Samsumg</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* CONTENIDO CARD */}
+                </div>
+                <div className="carousel-item">
+                  {/* CONTENIDO CARD */}
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img30} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Stanley</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img31} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Michelin</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img32} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Restonic</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img33} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">DC Shoes</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* CONTENIDO CARD */}
+                </div>
+                <div className="carousel-item">
+                  {/* CONTENIDO CARD */}
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img34} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Sony</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img35} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Andrea</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img36} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Nintendo</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                        <img src={Img37} alt="" />
+                        <div className="card-body">
+                          <img src={Img38} className="mx-auto d-block rounded-4" alt="" />
+                          <h5 className="text-center">Bosch</h5>
+                          {/* CONTENIDO */}
+                          <div className="row row-cols-1 row-cols-md-3 g-4">
+
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col">
+                              <div className="card border-0">
+                                <img src={Img39} className="" alt="" />
+                                <div className="card-body">
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/* CONTENIDO */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* CONTENIDO CARD */}
+                </div>
+              </div>
+              <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleTres" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleTres" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+            {/* CONTENIDO DE CARRUSEL CARD */}
+
+
+            {/* CONTENIDO */}
+            {/* CARD 2 IMAGENES */}
+            <div className="row mt-4">
+              <div className="col-sm-6 mb-3 mb-sm-0 mt-4">
+
+                {/* CONTENIDO */}
+                <div className="card-group shadow  bg-body-tertiary rounded">
+                  <div className="card  ColorTransparente border-0">
+                    <div className="card-body">
+                      <p>RUNNING WEEK</p>
+                      <h5>HASTA 25% <br /> DE DESCUENTO </h5>
+                      <button className="btn btn-primary">Ver Más</button>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <img src={Img40} className="TamañoDeImgPerro" alt="" />
+
+                  </div>
+                </div>
+                {/* CONTENIDO */}
+
+              </div>
+              <div className="col-sm-6 mt-4">
+
+                {/* CONTENIDO */}
+                <div className="card-group shadow  bg-body-tertiary rounded">
+                  <div className="card ColorTransparente border-0">
+                    <div className="card-body">
+                      <p>TODO EN</p>
+                      <h5>HOGAR Y <br /> MUEBLES </h5>
+                      <button className="btn btn-primary">Ver Más</button>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <img src={Img41} alt="" />
+
+                  </div>
+                </div>
+                {/* CONTENIDO */}
+
+              </div>
+            </div>
+            {/* CARD 2 IMAGENES */}
+            {/* CONTENIDO */}
+            <div className="mt-4">
+              <br />
+              <h4 className="mt-4 ms-5 mb-4">Colecciones:Calzado</h4>
+            </div>
+            {/* CONTENIDO */}
+
+
+            {/* CONTENIDO */}
+            <div className="row">
+              <div className="col-sm-6 mb-3 mb-sm-0">
+                <div className="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded">
+                  <img src={Img42} className="TamañoDeImgZapatosCatalogo" alt="" />
+                  <div className="card-body">
+                    <h5>DESCUBRE</h5>
+                    <h1>CALZADO</h1>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="card border-0">
+                  <div className="card-body mt-4">
+                    {/* CARD 4 */}
+                    <div className="row row-cols-1 row-cols-md-4 g-4 mt-4">
+                      <div className="col">
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img43} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img43} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img44} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img44} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img45} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img45} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img46} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                        <div className="card shadow p-3 mb-5 bg-body-tertiary rounded border-0">
+                          <br />
+                          <img src={Img46} className="rounded-4" alt="" />
+                          <div className="card-body">
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* CARD 4 */}
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* CONTENIDO */}
+
+            {/* CONTENIDO */}
+            <div className="mt-4 mb-4">
+              <h4 className="mt-4 mb-4">Más vendidos en Mocasines y Oxfords Ver más vendidos</h4>
+            </div>
+            {/* CONTENIDO */}
+
+            {/* CONTENIDO */}
+            <div id="carouselExampleCuatro" className="carousel slide mt-4">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  {/* CONTENIDO */}
+                  <div className="row row-cols-1 row-cols-md-5 g-4">
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img47} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img48} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img49} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img50} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img51} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* CONTENIDO */}
+                </div>
+                <div className="carousel-item">
+                  {/* CONTENIDO */}
+                  <div className="row row-cols-1 row-cols-md-5 g-4">
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img51} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img50} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img49} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img48} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img47} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* CONTENIDO */}
+                </div>
+                <div className="carousel-item">
+                  {/* CONTENIDO */}
+                  <div className="row row-cols-1 row-cols-md-5 g-4">
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img47} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img48} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img49} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img50} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="card shadow p-3 mb-5 bg-body-tertiary rounded rounded-4 border-0">
+                        <img src={Img51} alt="" />
+                        <div className="card-body">
+                          <h6>$ 2,536 27% OFF </h6>
+                          <p>12x $ 2211.40 sin intereses <br /> Envio gratis FULL <br />
+                            Celular Cubot P80 Dual Sim <br />256 Gb Gblobal 8 Gb Ram... </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* CONTENIDO */}
+                </div>
+              </div>
+              <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCuatro" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCuatro" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+            {/* CONTENIDO */}
+
+
 
 
           </div>
