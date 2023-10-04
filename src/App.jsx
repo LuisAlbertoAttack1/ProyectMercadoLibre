@@ -4,6 +4,7 @@ import { Home } from "./views/Home"
 import { MisCompras } from "./views/MisCompras"
 import { CarritoDeCompras } from "./views/CarritoDeCompras"
 import { Navbar } from "./components/Navbar"
+import "./css/main.css";
 
 
 export const App = () => {
