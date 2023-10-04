@@ -44,3 +44,6 @@ body {
 .ColorTransparente{
     background:rgba(138,221,45,0);
 }
+.ColorNegroFondoDeCafe{
+    background-color: black !important;
+}

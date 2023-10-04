@@ -29,6 +29,7 @@ import Img19 from '../img/ImgDeCarruselCard/Img19.jpg'
 import Img20 from '../img/ImgDeCarruselCard/Img20.jpg'
 import Img21 from '../img/ImgDeCarruselCard/Img21.jpg'
 import Img22 from '../img/ImgDeCarruselCard/Img22.jpg'
+import Img23 from '../img/ImgDeCarruselCard/Img23.jpg'
 export const Home = () => {
   return (
     <>
@@ -434,20 +435,17 @@ export const Home = () => {
             <div className="mt-4">
               <div className="card-group">
                 <div className="card">
-                  <img src="" alt="" />
+                  <img src={Img23} alt="" />
                   <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+
                   </div>
                 </div>
                 {/* UNCION DE CARD */}
-                <div className="card">
-                  <img src="" alt="" />
+                <div className="card ColorNegroFondoDeCafe">
                   <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                      <h5 className="text-white mt-4 ms-5">DISFRUTA TU FAVORITO</h5>
+                      <h1 className="text-white mt-2 ms-5">YA DISPONIBLES EN <br />MERCADO LIBRE</h1>
+                      <h4 className="text-white mt-2 ms-5">COMPRAR </h4>
                   </div>
                 </div>
               </div>
