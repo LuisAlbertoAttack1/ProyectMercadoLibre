@@ -1,0 +1,17 @@
+.TamañoDeImgError404{
+    height: 20rem !important;
+    width: 20rem !important;
+}
+.TipoDeLetra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.TamañoDeCard{
+    width: 30rem;
+}
+.ColorTransparente{
+    background:rgba(138,221,45,0) !important;
+}
+.TamañoDeIconoUser{
+    height: 5rem;
+    width: 5rem;
+}
