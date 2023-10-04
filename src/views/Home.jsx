@@ -30,6 +30,8 @@ import Img20 from '../img/ImgDeCarruselCard/Img20.jpg'
 import Img21 from '../img/ImgDeCarruselCard/Img21.jpg'
 import Img22 from '../img/ImgDeCarruselCard/Img22.jpg'
 import Img23 from '../img/ImgDeCarruselCard/Img23.jpg'
+import Img24 from '../img/ImgDeCarruselCard/Img24.jpg'
+import Img25 from '../img/ImgDeCarruselCard/Img25.jpg'
 export const Home = () => {
   return (
     <>
@@ -434,24 +436,68 @@ export const Home = () => {
             {/* CONTENIDO DE CAFE */}
             <div className="mt-4">
               <div className="card-group">
-                <div className="card">
+                <div className="card border-0">
                   <img src={Img23} alt="" />
                   <div className="card-body">
-
                   </div>
                 </div>
                 {/* UNCION DE CARD */}
-                <div className="card ColorNegroFondoDeCafe">
+                <div className="card ColorNegroFondoDeCafe border-0">
                   <div className="card-body">
-                      <h5 className="text-white mt-4 ms-5">DISFRUTA TU FAVORITO</h5>
-                      <h1 className="text-white mt-2 ms-5">YA DISPONIBLES EN <br />MERCADO LIBRE</h1>
-                      <h4 className="text-white mt-2 ms-5">COMPRAR </h4>
+                    <h5 className="text-white mt-4 ms-5">DISFRUTA TU FAVORITO</h5>
+                    <h1 className="text-white mt-2 ms-5">YA DISPONIBLES EN <br />MERCADO LIBRE</h1>
+                    <h4 className="text-white mt-2 ms-5">COMPRAR </h4>
                   </div>
                 </div>
               </div>
             </div>
-
             {/* CONTENIDO DE CAFE */}
+
+            {/* CARD 2 IMAGENES */}
+            <div className="row mt-4">
+              <div className="col-sm-6 mb-3 mb-sm-0 mt-4">
+
+                {/* CONTENIDO */}
+                <div className="card-group shadow  bg-body-tertiary rounded">
+                  <div className="card  ColorTransparente border-0">
+                    <div className="card-body">
+                      <p>MASCOTAS</p>
+                      <h5>HASTA 30% <br /> DE DESCUENTO </h5>
+                      <button className="btn btn-primary">Ver Más</button>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <img src={Img24} className="TamañoDeImgPerro" alt="" />
+
+                  </div>
+                </div>
+                {/* CONTENIDO */}
+
+              </div>
+              <div className="col-sm-6 mt-4">
+
+                {/* CONTENIDO */}
+                <div className="card-group shadow  bg-body-tertiary rounded">
+                  <div className="card ColorTransparente border-0">
+                    <div className="card-body">
+                      <p>DESCUENTOS</p>
+                      <h5>OCTUBRE DEPORTIVO <br /> HASTA 35% OFF </h5>
+                      <button className="btn btn-primary">Ver Más</button>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <img src={Img25} alt="" />
+
+                  </div>
+                </div>
+                {/* CONTENIDO */}
+
+              </div>
+            </div>
+
+            {/* CARD 2 IMAGENES */}
+
+
           </div>
         </div>
       </div>

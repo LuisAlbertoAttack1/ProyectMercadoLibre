@@ -42,8 +42,11 @@ body {
     width: 4rem;
 }
 .ColorTransparente{
-    background:rgba(138,221,45,0);
+    background:rgba(138,221,45,0) !important;
 }
 .ColorNegroFondoDeCafe{
     background-color: black !important;
+}
+.TamañoDeImgPerro{
+    height: 11rem;
 }
