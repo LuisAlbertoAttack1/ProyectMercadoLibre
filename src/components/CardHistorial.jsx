@@ -9,7 +9,7 @@ import { AiFillThunderbolt } from 'react-icons/ai';
 export const CardHistorial = () => {
   return (
     <div className='row'>
-        <div className='col-2'>
+        <div className='col-6 col-lg-2'>
             <div className="card mb-3">
                 <div className="card-img py-0">
                     <img src={img1} className='mx-auto d-block' width="120px" height="120px" alt="Imagen de producto"/>  
@@ -24,7 +24,7 @@ export const CardHistorial = () => {
             </div>
         </div>
 
-        <div className='col-2'>
+        <div className='col-6 col-lg-2'>
             <div className="card mb-3">
                 <div className="card-img py-0">
                     <img src={img2} className='mx-auto d-block' width="120px" height="120px" alt="Imagen de producto"/>  
@@ -39,7 +39,7 @@ export const CardHistorial = () => {
             </div>
         </div>
 
-        <div className='col-2'>
+        <div className='col-6 col-lg-2'>
             <div className="card mb-3">
                 <div className="card-img py-0">
                     <img src={img3} className='mx-auto d-block' width="120px" height="120px" alt="Imagen de producto"/>  
@@ -54,7 +54,7 @@ export const CardHistorial = () => {
             </div>
         </div>
 
-        <div className='col-2'>
+        <div className='col-6 col-lg-2'>
             <div className="card mb-3">
                 <div className="card-img py-0">
                     <img src={img4} className='mx-auto d-block' width="120px" height="120px" alt="Imagen de producto"/>  
@@ -69,7 +69,7 @@ export const CardHistorial = () => {
             </div>
         </div>
 
-        <div className='col-2'>
+        <div className='col-6 col-lg-2'>
             <div className="card mb-3">
                 <div className="card-img py-0">
                     <img src={img5} className='mx-auto d-block' width="120px" height="120px" alt="Imagen de producto"/>  
@@ -84,7 +84,7 @@ export const CardHistorial = () => {
             </div>
         </div>
 
-        <div className='col-2'>
+        <div className='col-6 col-lg-2'>
             <div className="card mb-3">
                 <div className="card-img py-0">
                     <img src={img6} className='mx-auto d-block' width="120px" height="120px" alt="Imagen de producto"/>  
