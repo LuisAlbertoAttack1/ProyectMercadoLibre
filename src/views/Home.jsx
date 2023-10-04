@@ -1351,8 +1351,112 @@ export const Home = () => {
             </div>
             {/* CONTENIDO */}
 
+            {/* DIV CONTIENE INFORMACION */}
+              <div className="mt-4">
+                  <h4 className="mt-4 ms-4">Categorías populares</h4>
+              </div>
+            {/* DIV CONTIENE INFORMACION */}
 
+            {/* CARD QUE CONTIENE VARIOS CARD JUNTOS */}
+              <div className="card">
+                  {/* CONTENIDO */}
+                  <div className="card-group">
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Autos, Motos Y Otros</p>
+    </div>
+    
+  </div>
+  
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+      <p>Supermercado</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+      <p>Accesorios Para Vehiculos</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Dportes Y Fitness</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+      <p>Computacion</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Consolas Y VideoJuegos</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Electrodomesticos</p>
+    </div>
+  </div>
+</div>
+<div className="card-group">
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Autos, Motos Y Otros</p>
+    </div>
+    
+  </div>
+  
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+      <p>Supermercado</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+      <p>Accesorios Para Vehiculos</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Dportes Y Fitness</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+      <p>Computacion</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Consolas Y VideoJuegos</p>
+    </div>
+  </div>
+  <div className="card">
+    <img src="" alt="" />
+    <div className="card-body">
+        <p>Electrodomesticos</p>
+    </div>
+  </div>
+</div>
+                  {/* CONTENIDO */}
 
+              </div>
+
+            {/* CARD QUE CONTIENE VARIOS CARD JUNTOS */}
 
           </div>
         </div>
