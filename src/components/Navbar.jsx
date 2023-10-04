@@ -67,7 +67,7 @@ export const Navbar = () => {
                 </ul>
               </li>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
@@ -94,7 +94,7 @@ export const Navbar = () => {
                 <NavLink className="btn btn-nav" aria-current="page" to='/s' style={{fontSize:"0.9rem"}}>Ingresa</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/s' style={{fontSize:"0.9rem"}}>Mis compras</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras' style={{fontSize:"0.9rem"}}>Mis compras</NavLink>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'><PiShoppingCartSimpleLight className="fs-5 mb-2"/></NavLink>
