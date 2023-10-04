@@ -58,6 +58,23 @@ import Img48 from '../img/ImgDeCarruselCard/Img49.webp'
 import Img49 from '../img/ImgDeCarruselCard/Img50.webp'
 import Img50 from '../img/ImgDeCarruselCard/Img50.webp'
 import Img51 from '../img/ImgDeCarruselCard/Img51.webp'
+import Img53 from '../img/ImgDeCarruselCard/Img53.png'
+import Img54 from '../img/ImgDeCarruselCard/Img54.png'
+import Img55 from '../img/ImgDeCarruselCard/Img55.png'
+import Img56 from '../img/ImgDeCarruselCard/Img56.png'
+import Img57 from '../img/ImgDeCarruselCard/Img57.png'
+import Img58 from '../img/ImgDeCarruselCard/Img58.png'
+import Img59 from '../img/ImgDeCarruselCard/Img59.png'
+import Img60 from '../img/ImgDeCarruselCard/Img60.png'
+import Img61 from '../img/ImgDeCarruselCard/Img61.png'
+import Img62 from '../img/ImgDeCarruselCard/Img62.png'
+import Img63 from '../img/ImgDeCarruselCard/Img63.png'
+import Img64 from '../img/ImgDeCarruselCard/Img64.png'
+import Img65 from '../img/ImgDeCarruselCard/Img65.png'
+import Img67 from '../img/ImgDeCarruselCard/Img67.png'
+import payment from '../img/ImgDeCarruselCard/payment.svg'
+import protecteds from '../img/ImgDeCarruselCard/protected.svg'
+import shipping from '../img/ImgDeCarruselCard/shipping.svg'
 export const Home = () => {
   return (
     <>
@@ -1352,115 +1369,196 @@ export const Home = () => {
             {/* CONTENIDO */}
 
             {/* DIV CONTIENE INFORMACION */}
-              <div className="mt-4">
-                  <h4 className="mt-4 ms-4">Categorías populares</h4>
-              </div>
+            <div className="mt-4">
+              <h4 className="mt-4 ms-4">Categorías populares</h4>
+            </div>
             {/* DIV CONTIENE INFORMACION */}
 
             {/* CARD QUE CONTIENE VARIOS CARD JUNTOS */}
-              <div className="card">
-                  {/* CONTENIDO */}
-                  <div className="card-group">
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Autos, Motos Y Otros</p>
-    </div>
-    
-  </div>
-  
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-      <p>Supermercado</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-      <p>Accesorios Para Vehiculos</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Dportes Y Fitness</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-      <p>Computacion</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Consolas Y VideoJuegos</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Electrodomesticos</p>
-    </div>
-  </div>
-</div>
-<div className="card-group">
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Autos, Motos Y Otros</p>
-    </div>
-    
-  </div>
-  
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-      <p>Supermercado</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-      <p>Accesorios Para Vehiculos</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Dportes Y Fitness</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-      <p>Computacion</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Consolas Y VideoJuegos</p>
-    </div>
-  </div>
-  <div className="card">
-    <img src="" alt="" />
-    <div className="card-body">
-        <p>Electrodomesticos</p>
-    </div>
-  </div>
-</div>
-                  {/* CONTENIDO */}
+            <div className="card mt-4">
+              {/* CONTENIDO */}
+              <div className="card-group">
+                <div className="card">
+                  <div className="text-center">
+                    <div className="text-center mt-4">
+                      <img src={Img53} className="TamañoDeIconosTabla" alt="" />
+                    </div>
 
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Autos, Motos Y Otros</p>
+                  </div>
+
+                </div>
+
+                <div className="card">
+                  <div className="text-center">
+                    <div className="text-center mt-4">
+                      <img src={Img54} className="TamañoDeIconosTabla" alt="" />
+                    </div>
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Supermercado</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img55} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Accesorios Para Vehiculos</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img56} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Dportes Y Fitness</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img57} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Computacion</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img58} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Consolas Y VideoJuegos</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img59} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+
+                  <div className="card-body">
+                    <p className="text-center">Electrodomesticos</p>
+                  </div>
+                </div>
               </div>
+              <div className="card-group">
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img60} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Autos, Motos Y Otros</p>
+                  </div>
 
+                </div>
+
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img61} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Supermercado</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img62} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Accesorios Para Vehiculos</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img63} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Dportes Y Fitness</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img64} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Computacion</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img65} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body">
+                    <p className="text-center">Consolas Y VideoJuegos</p>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="text-center mt-4">
+                    <img src={Img67} className="TamañoDeIconosTabla" alt="" />
+                  </div>
+                  <div className="card-body mt-1">
+                    <p className="text-center">Electrodomesticos</p>
+                  </div>
+                </div>
+              </div>
+              {/* CONTENIDO */}
+
+            </div>
             {/* CARD QUE CONTIENE VARIOS CARD JUNTOS */}
+
 
           </div>
         </div>
       </div>
+      <br /><br />
+
+      {/* CONTENIDO DE CARD FOOTER */}
+      <div className="card mt-4 shadow bg-body-tertiary rounded border-0">
+        <div className="card-body mt-4">
+          {/* CONTENIDO DENTRO */}
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <div className="card border-0 ColorTransparente">
+                <div className="text-center">
+                  <img src={payment} className="" alt="" />
+                </div>
+                <div className="card-body">
+                  <h3 className="text-center">Elige cómo pagar</h3>
+                  <h5 className="text-center mt-2">Con Mercado Pago, paga con tarjeta, débito o efectivo. También puedes pagar en hasta 12 mensualidades sin tarjeta con Mercado Crédito.</h5>
+                  <p className="text-center">Cómo pagar con Mercado Pago</p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card border-0 ColorTransparente">
+                <div className="text-center">
+                  <img src={shipping} className="TamañoDeIconosTabla" alt="" />
+                </div>
+                <div className="card-body">
+                  <h3 className="text-center">Elige cómo pagar</h3>
+                  <h5 className="text-center mt-2">Al registrarte en Mercado Libre tienes envíos gratis en miles de productos.</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card border-0 ColorTransparente">
+                <div className="text-center">
+                  <img src={protecteds} className="TamañoDeIconosTabla" alt="" />
+                </div>
+                <div className="card-body">
+                  <h3 className="text-center">Elige cómo pagar</h3>
+                  <h5 className="text-center mt-2">¿No te gusta? ¡Devuélvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</h5>
+                  <p className="text-center">Cómo te protegemos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* CONTENIDO DENTRO */}
+        </div>
+      </div>
+      {/* CONTENIDO DE CARD FOOTER */}
     </>
   )
 }
