@@ -12,16 +12,16 @@ export const Navbar = () => {
     <div className="">
       <div className="container-fluid bg-yellow">
         <div className="row p-2 justify-content-center">
-          <div className="col-7 col-md-2 mb-3 mb-sm-0">
+          <div className="col-12 col-md-2 mb-3 mb-sm-0 mt-1">
             <img src={logo} className="mx-auto d-block" alt="Mi Logo" />
           </div>
-          <div className="col-11 col-md-5 mb-3 mb-sm-0">
+          <div className="col-11 col-md-5 mb-3 mb-sm-0 mt-1">
             <div class="input-group">
               <input type="text" className="form-control" placeholder="Buscar productos, marcas y más..."/>
               <span class="input-group-text" style={{background:"#fff"}}><BsSearch className="siz"/></span>
             </div>
           </div>
-          <div className="col-5 d-none d-md-block col-md-3 mb-3 mb-sm-0">
+          <div className="col-5 d-none d-md-block col-md-3 mb-3 mb-sm-0 mt-1">
             <img src={promo} className="img-fluid mx-auto d-block" alt="" />
           </div>
         </div>
@@ -70,19 +70,19 @@ export const Navbar = () => {
                 <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</NavLink>
               </div>
             </div>
 
@@ -97,7 +97,7 @@ export const Navbar = () => {
                 <NavLink className="btn btn-nav" aria-current="page" to='/s' style={{fontSize:"0.9rem"}}>Mis compras</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/s'><PiShoppingCartSimpleLight className="fs-5 mb-2"/></NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'><PiShoppingCartSimpleLight className="fs-5 mb-2"/></NavLink>
               </div>
             </div>
           </div>
