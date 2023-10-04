@@ -15,3 +15,14 @@
     height: 5rem;
     width: 5rem;
 }
+
+.btn-yellow{
+    color: #fff;
+    background: #fff159;
+    border: #fff159;
+    &:hover{
+        color: #fff;
+        background: #c2b52a;
+        border: #c2b52a;
+    }
+}
