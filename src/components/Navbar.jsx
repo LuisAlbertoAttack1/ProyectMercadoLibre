@@ -1,18 +1,13 @@
 import { NavLink } from "react-router-dom"
-import "./css/style.css"
+import "../css/style.css"
 export const Navbar = () => {
   return (
     <>
-
-
-
-
-
       <nav className="navbar navbar-expand-lg ColorDeNav">
         <div className="container-fluid">
 
           <div className="mr-5 ml-5 mx-5 ms-5">
-            {/* <img src="/src/assets/img/imgLogo.png" className="TamañoDeLogoDeImg" alt="Mi Logo" /> */}
+            {<img src="/src/assets/img/imgLogo.png" className="TamañoDeLogoDeImg" alt="Mi Logo" />}
 
           </div>
 
