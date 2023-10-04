@@ -26,3 +26,21 @@ body {
     height: 2rem;
     width: 2rem;
 }
+.ColorUl{
+    background-color: blueviolet;
+}
+.TamañoDeImgMeli{
+    height: 3rem;
+    width: 5rem;
+}
+.TamañoDeCarrito{
+    height: 2rem;
+    width: 2rem;
+}
+.TamañodeCirculoDeCarrito{
+    height: 4rem;
+    width: 4rem;
+}
+.ColorTransparente{
+    background:rgba(138,221,45,0);
+}

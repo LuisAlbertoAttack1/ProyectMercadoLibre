@@ -1,4 +1,4 @@
-import "../css/style.css"
+import "../css/main.css"
 import Img1Carrusel from '../img/ImgDeCarrusel/Img1Carrusel.webp'
 import Img2Carrusel from '../img/ImgDeCarrusel/Img2Carrusel.webp'
 import Img3Carrusel from '../img/ImgDeCarrusel/Img3Carrusel.webp'
@@ -22,6 +22,13 @@ import Img12 from '../img/ImgDeCarruselCard/Img12.webp'
 import Img13 from '../img/ImgDeCarruselCard/Img13.webp'
 import Img14 from '../img/ImgDeCarruselCard/Img14.webp'
 import Img15 from '../img/ImgDeCarruselCard/Img15.webp'
+import Img16 from '../img/ImgDeCarruselCard/Img16.png'
+import Img17 from '../img/ImgDeCarruselCard/Img17.png'
+import Img18 from '../img/ImgDeCarruselCard/Img18.jpg'
+import Img19 from '../img/ImgDeCarruselCard/Img19.jpg'
+import Img20 from '../img/ImgDeCarruselCard/Img20.jpg'
+import Img21 from '../img/ImgDeCarruselCard/Img21.jpg'
+import Img22 from '../img/ImgDeCarruselCard/Img22.jpg'
 export const Home = () => {
   return (
     <>
@@ -310,6 +317,143 @@ export const Home = () => {
               </button>
             </div>
             {/* CONTENIDO */}
+            <div className="card rounded-3 shadow  bg-body-tertiary rounded border-0">             <div className="ColorUl rounded-top">
+              <h2 className="text-white mt-4 mb-4 ms-5">Suscríbete a <img src={Img16} className="TamañoDeImgMeli" alt="" />  | $ 99 /mes </h2>
+            </div>
+              <div className="card-body">
+                <p className="mt-4 mb-4 ms-4">Consigue los mejores beneficios en Mercado Libre</p>
+                {/* CARD 3 */}
+                <div className="row row-cols-1 row-cols-md-3 g-4">
+                  <div className="col">
+                    <div className="card border-0 ColorTransparente">
+                      <div className="card-body">
+                        {/* CONTENIDO */}
+                        <div className="row">
+                          <div className="col-sm-6 mb-3 mb-sm-0">
+                            <div className="card rounded-5 TamañodeCirculoDeCarrito ms-5 mt-4">
+                              <div className="card-body">
+                                <img src={Img17} className="TamañoDeCarrito" alt="" />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-sm-6">
+
+                            <p className="mt-4">Envíos gratis en millones de productos</p>
+
+                          </div>
+                        </div>
+                        {/* CONTENIDO */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div className="card border-0 ColorTransparente">
+                      <div className="card-body">
+                        {/* CONTENIDO */}
+                        <div className="row">
+                          <div className="col-sm-6 mb-3 mb-sm-0">
+                            <div className="card rounded-5 TamañodeCirculoDeCarrito ms-5 mt-4">
+                              <div className="card-body">
+                                <img src={Img18} className="TamañoDeCarrito" alt="" />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-sm-6">
+
+                            <p className="mt-4">Disney+ y Star+ sin cargo</p>
+
+                          </div>
+                        </div>
+                        {/* CONTENIDO */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div className="card border-0 ColorTransparente">
+                      <div className="card-body">
+                        {/* CONTENIDO */}
+                        <div className="row">
+                          <div className="col-sm-6 mb-3 mb-sm-0">
+                            <div className="card rounded-5 TamañodeCirculoDeCarrito ms-5 mt-4">
+                              <div className="card-body">
+                                <img src={Img19} className="TamañoDeCarrito" alt="" />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-sm-6">
+
+                            <p className="mt-4">12 meses gratis de Deezer Premium</p>
+                            <a href="#" className="btn btn-primary mt-4 ms-4">Suscribirme</a>
+                          </div>
+                        </div>
+                        {/* CONTENIDO */}
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                {/* CARD 3 */}
+              </div>
+            </div>
+            {/* CONTENIDO */}
+            <div className="mt-4">
+              <br />
+              <h3 className="mt-4">Beneficios en contenidos</h3>
+            </div>
+            {/* CONTENIDO */}
+
+            {/* 3CARD */}
+            <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
+
+              <div className="col">
+                <div className="card rounded-4 border-0">
+                  <img src={Img20} className="rounded-4" alt="" />
+                  <div className="card-body">
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div className="card rounded-4 border-0">
+                  <img src={Img21} className="rounded-4" alt="" />
+                  <div className="card-body">
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div className="card rounded-4 border-0">
+                  <img src={Img22} className="rounded-4" alt="" />
+                  <div className="card-body">
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 3CARD */}
+
+            {/* CONTENIDO DE CAFE */}
+            <div className="mt-4">
+              <div className="card-group">
+                <div className="card">
+                  <img src="" alt="" />
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                {/* UNCION DE CARD */}
+                <div className="card">
+                  <img src="" alt="" />
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* CONTENIDO DE CAFE */}
           </div>
         </div>
       </div>
