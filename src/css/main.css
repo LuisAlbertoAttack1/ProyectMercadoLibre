@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Mercado;
+    src: url('../font/proximanova-light.woff2');
+}
+
+body {
+    font-family: Mercado;
+}
+  
