@@ -1,7 +1,7 @@
 export const CarritoDeCompras = () => {
-  return (
+  return (    
     <>
-    <h5>Views De Carrito De Compras</h5>
+      
     </>
   )
 }
