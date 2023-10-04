@@ -21,3 +21,8 @@
 .btn-dark:hover{
     background: #0099e0;
 }
+
+
+.dropdown-menu{
+    width: 300px;
+}
