@@ -70,7 +70,7 @@ export const Navbar = () => {
                 <NavLink className="btn btn-nav" aria-current="page" to='/' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Historial' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/ccs' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
