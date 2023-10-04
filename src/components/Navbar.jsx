@@ -1,14 +1,15 @@
-import { NavLink } from "react-router-dom"
-import "../css/Navbar.css"
+import { NavLink } from "react-router-dom";
+import "../css/navbar.css";
 import logo from '../img/navbar/logo.png';
 import promo from '../img/navbar/promocion.webp';
 import { CiLocationOn } from 'react-icons/ci';
 import { PiShoppingCartSimpleLight } from 'react-icons/pi';
 import { BsSearch } from 'react-icons/bs';
+import { SlArrowDown } from 'react-icons/sl';
 
 export const Navbar = () => {
   return (
-    <>
+    <div className="">
       <div className="container-fluid bg-yellow">
         <div className="row p-2 justify-content-center">
           <div className="col-2">
@@ -17,7 +18,7 @@ export const Navbar = () => {
           <div className="col-5">
             <div class="input-group">
               <input type="text" className="form-control" placeholder="Buscar productos, marcas y más..."/>
-              <span class="input-group-text"><BsSearch className="siz"/></span>
+              <span class="input-group-text" style={{background:"#fff"}}><BsSearch className="siz"/></span>
             </div>
           </div>
           <div className="col-3">
@@ -29,56 +30,62 @@ export const Navbar = () => {
         <div className="container">
           <div className="mr-5 ml-5 mx-5 ms-5">    
             <div className="">
-              <NavLink className="btn btn-nav" aria-current="page" to='/ca'><CiLocationOn className="fs-5 mb-2 me-2"/>Ingresa tu domicilio</NavLink>
+              <NavLink className="btn btn-nav" aria-current="page" to='/ca' style={{fontSize:"0.9rem", backgroundImage: {promo}}}><CiLocationOn className="fs-5 mb-2 me-2"/>Ingresa tu domicilio</NavLink>
             </div>        
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav mx-auto">            
+          <div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+            <div className="navbar-nav mx-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link btn btn-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{fontSize:"0.9rem",color: "#857b7b"}}>
+                  Categorías <SlArrowDown style={{fontSize:"10px"}}/>
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="btn btn-dark w-100 text-start" href="#">Action</a></li>
+                  <li><a class="btn btn-dark w-100 text-start" href="#">Another action</a></li>
+                </ul>
+              </li>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/ca'>Categorías</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras'>Ofertas</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'>Historial</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'>Supermercado</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'>Moda</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'>Vender</NavLink>
-              </div>
-              <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras'>Ayuda</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CarritoDeCompras' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</NavLink>
               </div>
             </div>
 
             <div className="navbar-nav">            
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/a'>Crea tu cuenta</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/a' style={{fontSize:"0.9rem"}}>Crea tu cuenta</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/s'>Ingresa</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/s' style={{fontSize:"0.9rem"}}>Ingresa</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/s'>Mis compras</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/s' style={{fontSize:"0.9rem"}}>Mis compras</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/s'><PiShoppingCartSimpleLight className="fs-5"/></NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/s'><PiShoppingCartSimpleLight className="fs-5 mb-2"/></NavLink>
               </div>
             </div>
           </div>
         </div>
       </nav>
 
-    </>
+    </div>
   )
 }
 

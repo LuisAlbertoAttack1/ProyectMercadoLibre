@@ -3,7 +3,7 @@
 }
 
 .btn-nav{
-    color: #777777;
+    color: #857b7b;
     background: none;
     border: none;
     font-size: 0.9rem;
@@ -11,18 +11,13 @@
 
 .btn-nav:hover {
     color: #000;
-    background: none;
-    border: none;
-    font-size: 0.9rem;
-}
-.btn-nav:focus {
-    color: #000;
-    background: none;
-    border: none;
-    font-size: 0.9rem;
 }
 
 .siz{
     font-size: 15px;
     margin-bottom: 7px;
+}
+
+.btn-dark:hover{
+    background: #0099e0;
 }
