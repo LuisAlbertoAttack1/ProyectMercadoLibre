@@ -90,10 +90,10 @@ export const Navbar = () => {
 
             <div className="navbar-nav">            
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Cuenta' style={{fontSize:"0.9rem"}}>Crea tu cuenta</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/CrearCuenta' style={{fontSize:"0.9rem"}}>Crea tu cuenta</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Ingresa' style={{fontSize:"0.9rem"}}>Ingresa</NavLink>
+                <NavLink className="btn btn-nav" aria-current="page" to='/Ingresar' style={{fontSize:"0.9rem"}}>Ingresa</NavLink>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/MisCompras' style={{fontSize:"0.9rem"}}>Mis compras</NavLink>
