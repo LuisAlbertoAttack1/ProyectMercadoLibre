@@ -69,22 +69,22 @@ export const Navbar = () => {
                 </ul>
               </li>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Ofertas' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</NavLink>
+                <a className="btn btn-nav" href="#" style={{fontSize:"0.9rem",color: "#857b7b"}}>Ofertas</a>
               </div>
               <div className="">
                 <NavLink className="btn btn-nav" aria-current="page" to='/Historial' style={{fontSize:"0.9rem",color: "#857b7b"}}>Historial</NavLink>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Supermercado' style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</NavLink>
+                <a className="btn btn-nav" href="#" style={{fontSize:"0.9rem",color: "#857b7b"}}>Supermercado</a>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Moda' style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</NavLink>
+                <a className="btn btn-nav" href="#" style={{fontSize:"0.9rem",color: "#857b7b"}}>Moda</a>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Vender' style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</NavLink>
+                <a className="btn btn-nav" href="#" style={{fontSize:"0.9rem",color: "#857b7b"}}>Vender</a>
               </div>
               <div className="">
-                <NavLink className="btn btn-nav" aria-current="page" to='/Ayuda' style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</NavLink>
+                <a className="btn btn-nav" href="#" style={{fontSize:"0.9rem",color: "#857b7b"}}>Ayuda</a>
               </div>
             </div>
 
