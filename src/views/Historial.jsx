@@ -1,4 +1,5 @@
 import { CardHistorial } from '../components/CardHistorial';
+import {Footer} from '../components/Footer';
 
 export const Historial = () => {
     return (    
@@ -15,7 +16,8 @@ export const Historial = () => {
                     <CardHistorial/>
                 </div>
             </div>
-        </div>        
+        </div>  
+        <Footer/>      
       </>
     )
   }

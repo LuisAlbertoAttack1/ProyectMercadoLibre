@@ -5,6 +5,7 @@ import Img3 from '../img/ImgDeCarruselCard/Img3.webp'
 import Img4 from '../img/ImgDeCarruselCard/Img4.webp'
 import Img5 from '../img/ImgDeCarruselCard/Img5.webp'
 import { AiFillThunderbolt } from 'react-icons/ai';
+import {Footer} from '../components/Footer';
 
 export const CarritoDeCompras = () => {
   return (    
@@ -151,6 +152,7 @@ export const CarritoDeCompras = () => {
           </div>
         </div>
       </div>      
+      <Footer/>
     </>
   )
 }

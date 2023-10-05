@@ -18,7 +18,7 @@ export const Ingresar = () => {
                                 <p>Reportar un problema</p>          
                                 <span className="btn btn-outline-light text-secondary px-0 w-100 text-start"><GiSmartphone/> Robo o pérdida de teléfono <IoIosArrowForward className='text-end'/></span>
                                 <hr className='mb-0 mt-0'/>
-                                <span className="btn btn-outline-light text-secondary px-0 mb-2 w-100 text-start"><FiUser/> Robo de cuenta <IoIosArrowForward className='text-end'/></span><br/>
+                                <span className="btn btn-outline-light text-secondary px-0 mb-2 w-100 text-start"><FiUser/> Robo de cuenta <IoIosArrowForward className='ml-5'/></span><br/>
                                 <span className="text-primary">Necesito ayuda con otros temas</span>
                             </div>
                         </div>

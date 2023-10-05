@@ -5,7 +5,7 @@ export const CrearCuenta = () => {
     <>
       <div className="container mt-5 mb-4">
         <div className="row justify-content-center">
-          <div className="col-md-4 mb-3 border rounded mt-2">
+          <div className="col-md-4 mb-3 border rounded mt-2" style={{background:"#fff"}}>
             <div className="card text-center py-4 border-0" style={{background:"#fff"}}>
                 <div className='card-body bg-none'>
                     <div className='row justify-content-center'>

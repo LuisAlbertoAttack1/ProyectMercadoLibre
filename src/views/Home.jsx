@@ -75,6 +75,7 @@ import Img67 from '../img/ImgDeCarruselCard/Img67.png'
 import payment from '../img/ImgDeCarruselCard/payment.svg'
 import protecteds from '../img/ImgDeCarruselCard/protected.svg'
 import shipping from '../img/ImgDeCarruselCard/shipping.svg'
+import {Footer} from '../components/Footer';
 export const Home = () => {
   return (
     <>
@@ -1555,22 +1556,8 @@ export const Home = () => {
               </div>
             </div>
           </div>
+          <Footer/>
           {/* CONTENIDO DENTRO */}
-          <div>
-            <div>
-
-             <p className="text-center">Más Infromacion</p>
-
-            </div>
-            <hr />
-          <p className="ms-5">Trabaja con nosotros Términos y condiciones Cómo cuidamos tu privacidad Accesibilidad Ayuda</p>
-          <p className="ms-5">Copyright © 1999-2023 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial Mercado Libre.</p>
-          <p className="ms-5">Insurgentes Sur 1602 Piso 9 Suite 900, Crédito Constructor Benito Juarez, 03940 Ciudad de México, CDMX, Mexico</p>
-        </div>
-          {/* CONTENIDO DENTRO */}
-
-
-
         </div>
       </div>
       {/* CONTENIDO DE CARD FOOTER */}

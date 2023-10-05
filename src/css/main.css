@@ -5,7 +5,7 @@
 
 body {
     font-family: Mercado;
-    background: #a3a1a1;
+    background: #ebebeb;
 }
 
 .TamañoDeImgDeNavPromocionDisney{
@@ -16,8 +16,8 @@ body {
     width: 8rem;
 }
 .TamañoDeImgCitibanamex{
-    height: 4rem !important;
-    width: 8rem !important;
+    height: 3.5rem !important;
+    width: 8.5rem !important;
 }
 .TamañoDeCardCirculo{
     height: 4rem;
