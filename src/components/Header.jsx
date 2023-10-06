@@ -1,6 +1,5 @@
 import "../css/navbar.css";
 import logo from '../img/navbar/logo.png';
-import promo from '../img/navbar/promocion.webp';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 export const Header = () => {
   return (

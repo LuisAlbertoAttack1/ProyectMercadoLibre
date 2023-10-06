@@ -57,11 +57,11 @@ return (
               <h4>Compras</h4>
             </div>
             <div className="col-md-4">
-              <div class="input-group mb-3">
-                <span class="input-group-text"
+              <div className="input-group mb-3">
+                <span className="input-group-text"
                   style={{borderBottomLeftRadius:"20px",borderTopLeftRadius:"20px",background:"#fefefe"}}>
                   <BsSearch className="siz" /></span>
-                <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar"
+                <input type="text" className="form-control" placeholder="Buscar" aria-label="Buscar"
                   aria-describedby="basic-addon1"
                   style={{background:"#fefefe",borderBottomRightRadius:"20px",borderTopRightRadius:"20px"}} />
               </div>
@@ -81,15 +81,15 @@ return (
             </div>
             <div className="col-3">
               <nav aria-label="Page navigation example mx-auto d-block">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
+                <ul className="pagination">
+                  <li className="page-item">
+                    <a className="page-link" href="#" aria-label="Previous">
                       <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
-                  <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
+                  <li className="page-item"><a className="page-link active" href="#">1</a></li>
+                  <li className="page-item">
+                    <a className="page-link" href="#" aria-label="Next">
                       <span aria-hidden="true">Siguiente</span>
                     </a>
                   </li>

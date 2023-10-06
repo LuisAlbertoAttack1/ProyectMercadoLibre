@@ -18,9 +18,9 @@ export const Navbar = () => {
             </a>
           </div>
           <div className="col-11 col-md-5 mb-3 mb-sm-0 mt-1">
-            <div class="input-group">
+            <div className="input-group">
               <input type="text" className="form-control" placeholder="Buscar productos, marcas y más..."/>
-              <span class="input-group-text" style={{background:"#fff"}}><BsSearch className="siz"/></span>
+              <span className="input-group-text" style={{background:"#fff"}}><BsSearch className="siz"/></span>
             </div>
           </div>
           <div className="col-5 d-none d-md-block col-md-3 mb-3 mb-sm-0 mt-1">
@@ -40,32 +40,32 @@ export const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
             <div className="navbar-nav mx-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link btn btn-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{fontSize:"0.9rem",color: "#857b7b"}}>
+              <li className="nav-item dropdown">
+                <a className="nav-link btn btn-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{fontSize:"0.9rem",color: "#857b7b"}}>
                   Categorías <SlArrowDown style={{fontSize:"10px"}}/>
                 </a>
-                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Vehículos</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Supermercado</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Tecnología</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Electrodomésticos</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Hogar y Muebles</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Moda</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Deportes y Fitness</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Herramientas</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Construcción</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Industrias y Oficinas</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Accesorios para Vehículos</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Juegos y Juguetes</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Bebés</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Salud y Equipamiento Médico</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Belleza y Cuidado Personal</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Inmuebles</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Compra Internacional</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Productos Sustentables</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Más vendidos</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Tiendas oficiales</a></li>
-                  <li><a class="btn btn-dark w-100 text-start" href="#">Ver más categorías</a></li>
+                <ul className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Vehículos</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Supermercado</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Tecnología</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Electrodomésticos</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Hogar y Muebles</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Moda</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Deportes y Fitness</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Herramientas</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Construcción</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Industrias y Oficinas</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Accesorios para Vehículos</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Juegos y Juguetes</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Bebés</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Salud y Equipamiento Médico</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Belleza y Cuidado Personal</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Inmuebles</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Compra Internacional</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Productos Sustentables</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Más vendidos</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Tiendas oficiales</a></li>
+                  <li><a className="btn btn-dark w-100 text-start" href="#">Ver más categorías</a></li>
                 </ul>
               </li>
               <div className="">
