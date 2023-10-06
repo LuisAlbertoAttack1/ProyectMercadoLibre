@@ -1561,12 +1561,6 @@ export const Home = () => {
         </div>
       </div>
       {/* CONTENIDO DE CARD FOOTER */}
-
-
-
-
-
-
     </>
   )
 }
